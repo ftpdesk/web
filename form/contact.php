@@ -72,4 +72,5 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 // else just display the message
 else {
     echo $responseArray['message'];
-}
+};
+?>
